@@ -4,7 +4,7 @@ import qh from './images/QuikHalalFull.png'
 import attnd from './images/attnd.jpg'
 import hrmpro from './images/hrmpro.jpeg'
 
-import { Header, Icon, Image, Divider, Grid, Segment, Item, Progress } from 'semantic-ui-react'
+import { Header, Image, Divider, Grid, Segment, Item, Progress } from 'semantic-ui-react'
 
 class Cv extends Component {
   render() {
