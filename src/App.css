@@ -21,9 +21,30 @@
 }
 
 .fab{
+  display: block;
   position: fixed;
   bottom: 10vh;
   right: 10vh;
 }
-.printable{
+#printable{
+  padding: 5vmin;
+}
+
+@media print
+{
+  @page {
+    size: 7in 9.25in;
+    -webkit-print-color-adjust: exact;
+     background-color: white;
+     margin: 1.1cm 1.6cm
+   }
+
+ .breaksection{page-break-before: always;}
+  
+.fab {display:none; visibility: hidden;}
+#printable{
+  
+  -webkit-print-color-adjust: exact;
+  padding: 0;
+}
 }

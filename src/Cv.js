@@ -97,7 +97,7 @@ class Cv extends Component {
         </Item.Group>
 
         <Divider />
-        <Header as='h3'>
+        <Header className="breaksection" as='h3'>
           <Header.Content>
             Skills Proficiency
       <Header.Subheader>Here all the things I am good at</Header.Subheader>
@@ -188,7 +188,7 @@ class Cv extends Component {
 
         </Grid>
         <Divider />
-        <Header as='h3'>
+        <Header  as='h3'>
           <Header.Content>
             Experience
       <Header.Subheader>My journey since graduated from university</Header.Subheader>
@@ -210,7 +210,7 @@ class Cv extends Component {
         </Item.Description>
             </Item.Content>
           </Item>
-          <Item>
+          <Item className="breaksection">
             <Item.Content>
               <Item.Header>MySYSnet Sdn. Bhd.</Item.Header>
               <Item.Meta>
