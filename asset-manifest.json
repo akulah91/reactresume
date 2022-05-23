@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/reactresume/static/css/main.5801cb86.css",
+    "main.js": "/reactresume/static/js/main.717a04b6.js",
+    "static/media/hrmpro.jpeg": "/reactresume/static/media/hrmpro.728620c5f53413042b6b.jpeg",
+    "static/media/attnd.jpg": "/reactresume/static/media/attnd.44ce368fac26b44cf430.jpg",
+    "static/media/QuikHalalFull.png": "/reactresume/static/media/QuikHalalFull.83bed6ee8dee91e222bf.png",
+    "static/media/rahmatNew.jpg": "/reactresume/static/media/rahmatNew.9fd4f05b6159122229c0.jpg",
+    "static/media/myhelp.jpg": "/reactresume/static/media/myhelp.c5401f8c752f8390b6d8.jpg",
+    "index.html": "/reactresume/index.html",
+    "main.5801cb86.css.map": "/reactresume/static/css/main.5801cb86.css.map",
+    "main.717a04b6.js.map": "/reactresume/static/js/main.717a04b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5801cb86.css",
+    "static/js/main.717a04b6.js"
+  ]
+}
