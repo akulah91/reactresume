@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import foto from './images/rahmatNew.jpg';
 import qh from './images/QuikHalalFull.png'
+import myhelp from './images/myhelp.jpg'
 import attnd from './images/attnd.jpg'
 import hrmpro from './images/hrmpro.jpeg'
 
@@ -14,7 +15,7 @@ class Cv extends Component {
           <Image circular src={foto} className="foto" />
           <Header.Content>  Mohamad Rahmat bin Harun
       <Header.Subheader>I love to learn and create something new and something related to new trend technologies.
-                          Being a system developer for almost 5 years, I developed many kind of system from backend to front end.
+                          Being a system developer for almost 8 years, I developed many kind of system from backend to front end.
                           Here my cv and hope its enough for me to give the impression of how I can impress you with my works if we are about to working together.</Header.Subheader>
           </Header.Content>
 
@@ -31,12 +32,39 @@ class Cv extends Component {
             <Item.Image size='small' src={qh} />
 
             <Item.Content>
-              <Item.Header as='a' href="http://www.quikhalal.com" target="_blank">QuikHalal</Item.Header>
+              <Item.Header as='a' href="http://www.quikhalal.com" target="_blank">QuikHalal v1</Item.Header>
               <Item.Description>
                 <p>A Halal Auditing Apps that build using apache cordova platform.</p>
                 <p>My work as mobile apps developer @ Holisticslab Sdn. Bhd.</p>
                 <p>iOS: <a href="https://itunes.apple.com/us/app/quikhalal/id1358613307?mt=8">https://itunes.apple.com/us/app/quikhalal/id1358613307?mt=8</a> </p>
                 <p>android: <a href="https://play.google.com/store/apps/details?id=my.holisticslab.quikhalal">https://play.google.com/store/apps/details?id=my.holisticslab.quikhalal</a></p>
+              </Item.Description>
+            </Item.Content>
+          </Item>
+          <Item>
+            <Item.Image size='small' src={qh} />
+
+            <Item.Content>
+              <Item.Header as='a' href="http://www.quikhalal.com" target="_blank">QuikHalal v2</Item.Header>
+              <Item.Description>
+                <p>A Halal Auditing Apps that build using React Native platform.</p>
+                <p>My work as mobile apps developer @ Holisticslab Sdn. Bhd.</p>
+                <p>iOS: Private release using redemption code </p>
+                <p>android: <a href="https://play.google.com/store/apps/details?id=com.quikhalal.app">https://play.google.com/store/apps/details?id=com.quikhalal.app</a></p>
+              </Item.Description>
+            </Item.Content>
+          </Item>
+            
+          <Item>
+            <Item.Image size='small' src={myhelp} />
+
+            <Item.Content>
+              <Item.Header  target="_blank">MyHelp</Item.Header>
+              <Item.Description>
+                <p>A McDonald Malaysia internal Auditing Apps that build using React Native platform.</p>
+                <p>My work as mobile apps developer @ Holisticslab Sdn. Bhd.</p>
+                <p>iOS: Private release using redemption code </p>
+                <p>android: <a href="https://play.google.com/store/apps/details?id=com.quikhalal.app">https://play.google.com/store/apps/details?id=help.mcd.app</a></p>
               </Item.Description>
             </Item.Content>
           </Item>
@@ -77,6 +105,27 @@ class Cv extends Component {
             </Item.Content>
           </Item>
 
+          <Item>
+            <Item.Content>
+              <Item.Header as='div' >Online Training Material Sharing Platform (Classroom)</Item.Header>
+              <Item.Description>
+                <p>A web based training material sharing platform develop using React.js platform and backend support by laravel.</p>
+                <p>My work as mobile apps developer @ Holisticslab Sdn. Bhd.</p>
+                <p>link: <a href="http://classroom.holisticslab.my">http://classroom.holisticslab.my</a> </p>
+              </Item.Description>
+            </Item.Content>
+          </Item>
+
+          <Item>
+            <Item.Content>
+              <Item.Header as='div' >Online Certificate Generation System</Item.Header>
+              <Item.Description>
+                <p>A web based system for easy certificate generation develop using React.js platform and backend support by laravel.</p>
+                <p>My work as mobile apps developer @ Holisticslab Sdn. Bhd.</p>
+                <p>link: <a href="http://certificate.holisticslab.my">http://certificate.holisticslab.my</a> </p>
+              </Item.Description>
+            </Item.Content>
+          </Item>
 
           <Item>
             <Item.Content>
@@ -97,7 +146,7 @@ class Cv extends Component {
         </Item.Group>
 
         <Divider />
-        <Header className="breaksection" as='h3'>
+        <Header className="breaksection1" as='h3'>
           <Header.Content>
             Skills Proficiency
       <Header.Subheader>Here all the things I am good at</Header.Subheader>
@@ -131,32 +180,7 @@ class Cv extends Component {
               </Segment>
             </Grid.Column>
           </Grid.Row>
-          <Grid.Row>
-            <Grid.Column>
-              <Segment>
-                <Header as='h5'>AngularJs</Header>
-                <Progress percent={50} color='yellow' progress />
-              </Segment>
-            </Grid.Column>
-            <Grid.Column>
-              <Segment>
-                <Header as='h5'>OnsenUI</Header>
-                <Progress percent={50} color='yellow' progress />
-              </Segment>
-            </Grid.Column>
-            <Grid.Column>
-              <Segment>
-                <Header as='h5'>Ionic</Header>
-                <Progress percent={50} color='yellow' progress />
-              </Segment>
-            </Grid.Column>
-            <Grid.Column>
-              <Segment>
-                <Header as='h5'>Cordova</Header>
-                <Progress percent={90} color='green' progress />
-              </Segment>
-            </Grid.Column>
-          </Grid.Row>
+         
           <Grid.Row>
 
             <Grid.Column>
@@ -210,7 +234,7 @@ class Cv extends Component {
         </Item.Description>
             </Item.Content>
           </Item>
-          <Item className="breaksection">
+          <Item className="breaksection2">
             <Item.Content>
               <Item.Header>MySYSnet Sdn. Bhd.</Item.Header>
               <Item.Meta>
@@ -268,7 +292,8 @@ class Cv extends Component {
       <Header.Subheader>
         <p>Contact me if you are intrested to know more and looking fowards to works together.</p>
               <p>mrahmatharun@gmail.com</p>
-              <p>+60177908946</p><p>
+              {/* <p>+60177908946</p> */}
+              <p>
                 <a href="https://www.linkedin.com/in/rahmatharun/" target="_black">https://www.linkedin.com/in/rahmatharun/</a>
               </p>
             </Header.Subheader>
